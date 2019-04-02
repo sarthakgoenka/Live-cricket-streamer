@@ -1,0 +1,306 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 06 Dec 2018 01:06:52 at https://herrlich.media/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://herrlich.media/ -O1 "E:\MINI-PROJECT\team\team2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:07:23	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://herrlich.media/)
+01:07:23	Error: 	"Not Found" (404) at link https://herrlich.media/GET (from https://herrlich.media/)
+01:07:23	Error: 	"Method Not Allowed" (405) at link https://herrlich.media/xmlrpc.php (from https://herrlich.media/)
+01:08:44	Error: 	"Not Found" (404) at link https://herrlich.media/wp-content/themes/herrlich/assets/img/background-header.jpg (from https://herrlich.media/wp-content/themes/herrlich/assets/css/style.min.css?ver=1.0)
+01:08:44	Error: 	"Not Found" (404) at link https://herrlich.media/jobs/GET (from https://herrlich.media/jobs/)
+01:08:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1391
+01:08:44	Warning: 	File has moved from https://herrlich.media/?p=1391 to https://herrlich.media/jobs/
+01:08:44	Warning: 	Moved Permanently for https://herrlich.media/?p=21
+01:08:44	Warning: 	File has moved from https://herrlich.media/?p=21 to https://herrlich.media/impressum/
+01:08:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1775
+01:08:44	Warning: 	File has moved from https://herrlich.media/?p=1775 to https://herrlich.media/datenschutz/
+01:08:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/GET (from https://herrlich.media/arbeiten/)
+01:10:01	Error: 	"Not Found" (404) at link https://herrlich.media/team/GET (from https://herrlich.media/team/)
+01:10:01	Error: 	"Not Found" (404) at link https://herrlich.media/blog/GET (from https://herrlich.media/blog/)
+01:10:58	Error: 	"Not Found" (404) at link https://herrlich.media/kontakt/GET (from https://herrlich.media/kontakt/)
+01:10:58	Warning: 	Moved Permanently for https://herrlich.media/?p=11
+01:10:58	Warning: 	File has moved from https://herrlich.media/?p=11 to https://herrlich.media/kontakt/
+01:10:58	Error: 	"Not Found" (404) at link https://herrlich.media/impressum/GET (from https://herrlich.media/impressum/)
+01:10:58	Error: 	"Not Found" (404) at link https://herrlich.media/datenschutz/GET (from https://herrlich.media/datenschutz/)
+01:10:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/page/2/GET (from https://herrlich.media/arbeiten/page/2/)
+01:15:33	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/kliemannsland/GET (from https://herrlich.media/arbeiten/kliemannsland/)
+01:15:33	Warning: 	Moved Permanently for https://herrlich.media/?p=1680
+01:15:33	Warning: 	File has moved from https://herrlich.media/?p=1680 to https://herrlich.media/arbeiten/kliemannsland/
+01:15:33	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/ms-dockville/GET (from https://herrlich.media/arbeiten/ms-dockville/)
+01:15:33	Warning: 	Moved Permanently for https://herrlich.media/?p=1727
+01:15:33	Warning: 	File has moved from https://herrlich.media/?p=1727 to https://herrlich.media/arbeiten/ms-dockville/
+01:15:33	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/rocktbeanstv/GET (from https://herrlich.media/arbeiten/rocktbeanstv/)
+01:15:33	Warning: 	Moved Permanently for https://herrlich.media/?p=1638
+01:15:33	Warning: 	File has moved from https://herrlich.media/?p=1638 to https://herrlich.media/arbeiten/rocktbeanstv/
+01:15:39	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/lisega/GET (from https://herrlich.media/arbeiten/lisega/)
+01:15:40	Warning: 	Moved Permanently for https://herrlich.media/?p=1702
+01:15:40	Warning: 	File has moved from https://herrlich.media/?p=1702 to https://herrlich.media/arbeiten/lisega/
+01:15:40	Error: 	"Not Found" (404) at link https://herrlich.media/thema/agentur/GET (from https://herrlich.media/thema/agentur/)
+01:15:40	Error: 	"Not Found" (404) at link https://herrlich.media/thema/GET (from https://herrlich.media/thema/herrlich-media)
+01:15:40	Error: 	"Not Found" (404) at link https://herrlich.media/autor/fynn/GET (from https://herrlich.media/autor/fynn/)
+01:15:41	Error: 	"Not Found" (404) at link https://herrlich.media/blog/weiter-spielen/GET (from https://herrlich.media/blog/weiter-spielen/)
+01:15:41	Warning: 	Moved Permanently for https://herrlich.media/?p=1721
+01:15:41	Warning: 	File has moved from https://herrlich.media/?p=1721 to https://herrlich.media/blog/weiter-spielen/
+01:15:41	Error: 	"Not Found" (404) at link https://herrlich.media/blog/kostenlose-bilder/GET (from https://herrlich.media/blog/kostenlose-bilder/)
+01:15:41	Warning: 	Moved Permanently for https://herrlich.media/?p=1430
+01:15:41	Warning: 	File has moved from https://herrlich.media/?p=1430 to https://herrlich.media/blog/kostenlose-bilder/
+01:15:41	Error: 	"Not Found" (404) at link https://herrlich.media/blog/2013-herrlicher-rueckblick/GET (from https://herrlich.media/blog/2013-herrlicher-rueckblick/)
+01:15:41	Warning: 	Moved Permanently for https://herrlich.media/?p=1346
+01:15:41	Warning: 	File has moved from https://herrlich.media/?p=1346 to https://herrlich.media/blog/2013-herrlicher-rueckblick/
+01:15:41	Warning: 	Moved Permanently for herrlich.media/robots.txt
+01:15:41	Warning: 	Redirected link is identical because of 'URL Hack' option: herrlich.media/robots.txt and https://herrlich.media/robots.txt
+01:15:41	Warning: 	Warning moved treated for herrlich.media/robots.txt (real one is https://herrlich.media/robots.txt)
+01:15:41	Warning: 	Moved Permanently for herrlich.media/arbeiten/web/
+01:15:41	Warning: 	Redirected link is identical because of 'URL Hack' option: herrlich.media/arbeiten/web/ and https://herrlich.media/arbeiten/web/
+01:15:41	Warning: 	File has moved from herrlich.media/arbeiten/web/ to https://herrlich.media/arbeiten/web/
+01:15:41	Warning: 	Moved Permanently for herrlich.media/arbeiten/shop/
+01:15:41	Warning: 	Redirected link is identical because of 'URL Hack' option: herrlich.media/arbeiten/shop/ and https://herrlich.media/arbeiten/shop/
+01:15:41	Warning: 	File has moved from herrlich.media/arbeiten/shop/ to https://herrlich.media/arbeiten/shop/
+01:15:41	Warning: 	Retry after error -2 (Receive Time Out) at link https://herrlich.media/wp-content/uploads/2013/12/vorbereitung.jpg (from https://herrlich.media/blog/2013-herrlicher-rueckblick/)
+01:15:41	Error: 	"Not Found" (404) at link https://herrlich.media/thema/wordpress/GET (from https://herrlich.media/thema/wordpress/)
+01:15:41	Error: 	"Not Found" (404) at link https://herrlich.media/blog/remove-read-more-link-wordpress-excerpt/GET (from https://herrlich.media/blog/remove-read-more-link-wordpress-excerpt/)
+01:15:41	Warning: 	Moved Permanently for https://herrlich.media/?p=1262
+01:15:41	Warning: 	File has moved from https://herrlich.media/?p=1262 to https://herrlich.media/blog/remove-read-more-link-wordpress-excerpt/
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/thema/jquery/GET (from https://herrlich.media/thema/jquery/)
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/blog/jscrollpane-pane-in-the-ass/GET (from https://herrlich.media/blog/jscrollpane-pane-in-the-ass/)
+01:16:18	Warning: 	Moved Permanently for https://herrlich.media/?p=1196
+01:16:18	Warning: 	File has moved from https://herrlich.media/?p=1196 to https://herrlich.media/blog/jscrollpane-pane-in-the-ass/
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/blog/heiss-fettig-wir-gewinnen-css-awards/GET (from https://herrlich.media/blog/heiss-fettig-wir-gewinnen-css-awards/)
+01:16:18	Warning: 	Moved Permanently for https://herrlich.media/?p=1152
+01:16:18	Warning: 	File has moved from https://herrlich.media/?p=1152 to https://herrlich.media/blog/heiss-fettig-wir-gewinnen-css-awards/
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/thema/redis/GET (from https://herrlich.media/thema/redis/)
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/autor/florian/GET (from https://herrlich.media/autor/florian/)
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/blog/ladezeiten-mit-hilfe-vom-redis-cache-minimieren/GET (from https://herrlich.media/blog/ladezeiten-mit-hilfe-vom-redis-cache-minimieren/)
+01:16:18	Warning: 	Moved Permanently for https://herrlich.media/?p=1055
+01:16:18	Warning: 	File has moved from https://herrlich.media/?p=1055 to https://herrlich.media/blog/ladezeiten-mit-hilfe-vom-redis-cache-minimieren/
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/blog/das-netz-hat-eine-website-mehr/GET (from https://herrlich.media/blog/das-netz-hat-eine-website-mehr/)
+01:16:18	Warning: 	Moved Permanently for https://herrlich.media/?p=967
+01:16:18	Warning: 	File has moved from https://herrlich.media/?p=967 to https://herrlich.media/blog/das-netz-hat-eine-website-mehr/
+01:16:18	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/page/3/GET (from https://herrlich.media/arbeiten/page/3/)
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/aiya/GET (from https://herrlich.media/arbeiten/aiya/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1614
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1614 to https://herrlich.media/arbeiten/aiya/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/storchennest/GET (from https://herrlich.media/arbeiten/storchennest/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1584
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1584 to https://herrlich.media/arbeiten/storchennest/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/kissa/GET (from https://herrlich.media/arbeiten/kissa/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1554
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1554 to https://herrlich.media/arbeiten/kissa/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/hbb/GET (from https://herrlich.media/arbeiten/hbb/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1528
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1528 to https://herrlich.media/arbeiten/hbb/
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/arbeiten/hbb/ http://www.hbb.de/projekte/
+01:19:44	Warning: 	File has moved from https://herrlich.media/arbeiten/hbb/ http://www.hbb.de/projekte/ to https://herrlich.media/arbeiten/hbb/%c2%a0http:/www.hbb.de/projekte/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/bendiks-engineering/GET (from https://herrlich.media/arbeiten/bendiks-engineering/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1510
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1510 to https://herrlich.media/arbeiten/bendiks-engineering/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/archos-shop/GET (from https://herrlich.media/arbeiten/archos-shop/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1485
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1485 to https://herrlich.media/arbeiten/archos-shop/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/reccon/GET (from https://herrlich.media/arbeiten/reccon/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1463
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1463 to https://herrlich.media/arbeiten/reccon/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/not-for-sale-book-shop/GET (from https://herrlich.media/arbeiten/not-for-sale-book-shop/)
+01:19:44	Warning: 	Moved Permanently for https://herrlich.media/?p=1444
+01:19:44	Warning: 	File has moved from https://herrlich.media/?p=1444 to https://herrlich.media/arbeiten/not-for-sale-book-shop/
+01:19:44	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/dedon-salone-del-mobile/GET (from https://herrlich.media/arbeiten/dedon-salone-del-mobile/)
+01:19:45	Warning: 	Moved Permanently for https://herrlich.media/?p=1412
+01:19:45	Warning: 	File has moved from https://herrlich.media/?p=1412 to https://herrlich.media/arbeiten/dedon-salone-del-mobile/
+01:19:45	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/haus-christine/GET (from https://herrlich.media/arbeiten/haus-christine/)
+01:19:45	Warning: 	Moved Permanently for https://herrlich.media/?p=1327
+01:19:45	Warning: 	File has moved from https://herrlich.media/?p=1327 to https://herrlich.media/arbeiten/haus-christine/
+01:19:45	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/anna-fuchs-webshop/GET (from https://herrlich.media/arbeiten/anna-fuchs-webshop/)
+01:19:45	Warning: 	Moved Permanently for https://herrlich.media/?p=1296
+01:19:45	Warning: 	File has moved from https://herrlich.media/?p=1296 to https://herrlich.media/arbeiten/anna-fuchs-webshop/
+01:19:45	Error: 	"Not Found" (404) at link https://herrlich.media/team/fynn-kliemann/GET (from https://herrlich.media/team/fynn-kliemann/)
+01:19:45	Warning: 	Moved Permanently for https://herrlich.media/?p=17
+01:19:45	Warning: 	File has moved from https://herrlich.media/?p=17 to https://herrlich.media/team/fynn-kliemann/
+01:19:55	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/hallo-oma-app/GET (from https://herrlich.media/arbeiten/hallo-oma-app/)
+01:19:56	Warning: 	Moved Permanently for https://herrlich.media/?p=1227
+01:19:56	Warning: 	File has moved from https://herrlich.media/?p=1227 to https://herrlich.media/arbeiten/hallo-oma-app/
+01:19:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/eintrittskarten-mobile/GET (from https://herrlich.media/arbeiten/eintrittskarten-mobile/)
+01:19:58	Warning: 	Moved Permanently for https://herrlich.media/?p=1275
+01:19:58	Warning: 	File has moved from https://herrlich.media/?p=1275 to https://herrlich.media/arbeiten/eintrittskarten-mobile/
+01:19:59	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/page/4/GET (from https://herrlich.media/arbeiten/page/4/)
+01:21:48	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/salon-anna-treue-karten/GET (from https://herrlich.media/arbeiten/salon-anna-treue-karten/)
+01:21:48	Warning: 	Moved Permanently for https://herrlich.media/?p=1029
+01:21:48	Warning: 	File has moved from https://herrlich.media/?p=1029 to https://herrlich.media/arbeiten/salon-anna-treue-karten/
+01:21:48	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/norbert-tammen-ci/GET (from https://herrlich.media/arbeiten/norbert-tammen-ci/)
+01:21:48	Warning: 	Moved Permanently for https://herrlich.media/?p=1019
+01:21:48	Warning: 	File has moved from https://herrlich.media/?p=1019 to https://herrlich.media/arbeiten/norbert-tammen-ci/
+01:21:48	Warning: 	Retry after error -4 (No data (connection closed)) at link herrlich.media/wp-content/uploads/2013/04/tammen1.jpg (from https://herrlich.media/arbeiten/norbert-tammen-ci/)
+01:21:48	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/hoehner-rocking-roncalli-show/GET (from https://herrlich.media/arbeiten/hoehner-rocking-roncalli-show/)
+01:21:49	Warning: 	Moved Permanently for https://herrlich.media/?p=1010
+01:21:49	Warning: 	File has moved from https://herrlich.media/?p=1010 to https://herrlich.media/arbeiten/hoehner-rocking-roncalli-show/
+01:21:49	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/abi-2012/GET (from https://herrlich.media/arbeiten/abi-2012/)
+01:21:49	Warning: 	Moved Permanently for https://herrlich.media/?p=1002
+01:21:49	Warning: 	File has moved from https://herrlich.media/?p=1002 to https://herrlich.media/arbeiten/abi-2012/
+01:21:49	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/tophotelprojects-website/GET (from https://herrlich.media/arbeiten/tophotelprojects-website/)
+01:21:49	Warning: 	Moved Permanently for https://herrlich.media/?p=978
+01:21:49	Warning: 	File has moved from https://herrlich.media/?p=978 to https://herrlich.media/arbeiten/tophotelprojects-website/
+01:21:49	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/pizza-flitza-karten/GET (from https://herrlich.media/arbeiten/pizza-flitza-karten/)
+01:21:49	Warning: 	Moved Permanently for https://herrlich.media/?p=950
+01:21:49	Warning: 	File has moved from https://herrlich.media/?p=950 to https://herrlich.media/arbeiten/pizza-flitza-karten/
+01:21:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/goldkinder-ci/GET (from https://herrlich.media/arbeiten/goldkinder-ci/)
+01:21:58	Warning: 	Moved Permanently for https://herrlich.media/?p=887
+01:21:58	Warning: 	File has moved from https://herrlich.media/?p=887 to https://herrlich.media/arbeiten/goldkinder-ci/
+01:21:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/brennivin-shop/GET (from https://herrlich.media/arbeiten/brennivin-shop/)
+01:21:58	Warning: 	Moved Permanently for https://herrlich.media/?p=854
+01:21:58	Warning: 	File has moved from https://herrlich.media/?p=854 to https://herrlich.media/arbeiten/brennivin-shop/
+01:21:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/ks-jobchannel/GET (from https://herrlich.media/arbeiten/ks-jobchannel/)
+01:21:58	Warning: 	Moved Permanently for https://herrlich.media/?p=831
+01:21:58	Warning: 	File has moved from https://herrlich.media/?p=831 to https://herrlich.media/arbeiten/ks-jobchannel/
+01:21:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/g-i-f-art/GET (from https://herrlich.media/arbeiten/g-i-f-art/)
+01:21:58	Warning: 	Moved Permanently for https://herrlich.media/?p=796
+01:21:58	Warning: 	File has moved from https://herrlich.media/?p=796 to https://herrlich.media/arbeiten/g-i-f-art/
+01:21:58	Error: 	"Not Found" (404) at link https://herrlich.media/team/florian-bottmann/GET (from https://herrlich.media/team/florian-bottmann/)
+01:21:58	Warning: 	Moved Permanently for https://herrlich.media/?p=63
+01:21:58	Warning: 	File has moved from https://herrlich.media/?p=63 to https://herrlich.media/team/florian-bottmann/
+01:22:02	Error: 	"Not Found" (404) at link https://herrlich.media/autor/admin/GET (from https://herrlich.media/autor/admin/)
+01:22:34	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/page/5/GET (from https://herrlich.media/arbeiten/page/5/)
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/targetaround-landingpage/GET (from https://herrlich.media/arbeiten/targetaround-landingpage/)
+01:24:57	Warning: 	Moved Permanently for https://herrlich.media/?p=752
+01:24:57	Warning: 	File has moved from https://herrlich.media/?p=752 to https://herrlich.media/arbeiten/targetaround-landingpage/
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/goldkinder-website/GET (from https://herrlich.media/arbeiten/goldkinder-website/)
+01:24:57	Warning: 	Moved Permanently for https://herrlich.media/?p=739
+01:24:57	Warning: 	File has moved from https://herrlich.media/?p=739 to https://herrlich.media/arbeiten/goldkinder-website/
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/moebelwerke-sittensen/GET (from https://herrlich.media/arbeiten/moebelwerke-sittensen/)
+01:24:57	Warning: 	Moved Permanently for https://herrlich.media/?p=711
+01:24:57	Warning: 	File has moved from https://herrlich.media/?p=711 to https://herrlich.media/arbeiten/moebelwerke-sittensen/
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/naturmoebelhaus-ehlen/GET (from https://herrlich.media/arbeiten/naturmoebelhaus-ehlen/)
+01:24:57	Warning: 	Moved Permanently for https://herrlich.media/?p=700
+01:24:57	Warning: 	File has moved from https://herrlich.media/?p=700 to https://herrlich.media/arbeiten/naturmoebelhaus-ehlen/
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/retina-test/GET (from https://herrlich.media/arbeiten/retina-test/)
+01:24:57	Warning: 	Moved Permanently for https://herrlich.media/?p=677
+01:24:57	Warning: 	File has moved from https://herrlich.media/?p=677 to https://herrlich.media/arbeiten/retina-test/
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/massimo-giordano/GET (from https://herrlich.media/arbeiten/massimo-giordano/)
+01:24:57	Warning: 	Moved Permanently for https://herrlich.media/?p=653
+01:24:57	Warning: 	File has moved from https://herrlich.media/?p=653 to https://herrlich.media/arbeiten/massimo-giordano/
+01:24:57	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/kl-production/GET (from https://herrlich.media/arbeiten/kl-production/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=637
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=637 to https://herrlich.media/arbeiten/kl-production/
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/ankerherz-websiteshop/GET (from https://herrlich.media/arbeiten/ankerherz-websiteshop/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=613
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=613 to https://herrlich.media/arbeiten/ankerherz-websiteshop/
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/targetaround/GET (from https://herrlich.media/arbeiten/targetaround/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=542
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=542 to https://herrlich.media/arbeiten/targetaround/
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/fahjen-website/GET (from https://herrlich.media/arbeiten/fahjen-website/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=525
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=525 to https://herrlich.media/arbeiten/fahjen-website/
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/fahjen-ci/GET (from https://herrlich.media/arbeiten/fahjen-ci/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=534
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=534 to https://herrlich.media/arbeiten/fahjen-ci/
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/show-fashion/GET (from https://herrlich.media/arbeiten/show-fashion/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=515
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=515 to https://herrlich.media/arbeiten/show-fashion/
+01:24:58	Warning: 	Moved Permanently for herrlich.media/wp-content/uploads/2013/04/tammen1.jpg
+01:24:58	Warning: 	Redirected link is identical because of 'URL Hack' option: herrlich.media/wp-content/uploads/2013/04/tammen1.jpg and https://herrlich.media/wp-content/uploads/2013/04/tammen1.jpg
+01:24:58	Warning: 	Warning moved treated for herrlich.media/wp-content/uploads/2013/04/tammen1.jpg (real one is https://herrlich.media/wp-content/uploads/2013/04/tammen1.jpg)
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/pizza-flitza-website/GET (from https://herrlich.media/arbeiten/pizza-flitza-website/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=453
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=453 to https://herrlich.media/arbeiten/pizza-flitza-website/
+01:24:58	Error: 	"Not Found" (404) at link https://herrlich.media/team/arne/GET (from https://herrlich.media/team/arne/)
+01:24:58	Warning: 	Moved Permanently for https://herrlich.media/?p=1604
+01:24:58	Warning: 	File has moved from https://herrlich.media/?p=1604 to https://herrlich.media/team/arne/
+01:25:02	Error: 	"Not Found" (404) at link https://herrlich.media/autor/admin/page/2/GET (from https://herrlich.media/autor/admin/page/2/)
+01:25:13	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/lucente-lichtplanung/GET (from https://herrlich.media/arbeiten/lucente-lichtplanung/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1790
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1790 to https://herrlich.media/arbeiten/lucente-lichtplanung/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/gruenberg-gewuerzmanufaktur/GET (from https://herrlich.media/arbeiten/gruenberg-gewuerzmanufaktur/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1780
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1780 to https://herrlich.media/arbeiten/gruenberg-gewuerzmanufaktur/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/agantty-projektmanagement-tool/GET (from https://herrlich.media/arbeiten/agantty-projektmanagement-tool/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1748
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1748 to https://herrlich.media/arbeiten/agantty-projektmanagement-tool/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/rocon/GET (from https://herrlich.media/arbeiten/rocon/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1784
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1784 to https://herrlich.media/arbeiten/rocon/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/montagebau-hansa/GET (from https://herrlich.media/arbeiten/montagebau-hansa/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1787
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1787 to https://herrlich.media/arbeiten/montagebau-hansa/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/buero-3e/GET (from https://herrlich.media/arbeiten/buero-3e/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1797
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1797 to https://herrlich.media/arbeiten/buero-3e/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/germanfinance-group/GET (from https://herrlich.media/arbeiten/germanfinance-group/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=1793
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=1793 to https://herrlich.media/arbeiten/germanfinance-group/
+01:25:14	Error: 	"Not Found" (404) at link https://herrlich.media/team/lea-melcher/GET (from https://herrlich.media/team/lea-melcher/)
+01:25:14	Warning: 	Moved Permanently for https://herrlich.media/?p=75
+01:25:14	Warning: 	File has moved from https://herrlich.media/?p=75 to https://herrlich.media/team/lea-melcher/
+01:25:17	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/page/6/GET (from https://herrlich.media/arbeiten/page/6/)
+01:25:22	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/refe-rent/GET (from https://herrlich.media/arbeiten/refe-rent/)
+01:25:22	Warning: 	Moved Permanently for https://herrlich.media/?p=474
+01:25:22	Warning: 	File has moved from https://herrlich.media/?p=474 to https://herrlich.media/arbeiten/refe-rent/
+01:25:22	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/human-care/GET (from https://herrlich.media/arbeiten/human-care/)
+01:25:22	Warning: 	Moved Permanently for https://herrlich.media/?p=463
+01:25:22	Warning: 	File has moved from https://herrlich.media/?p=463 to https://herrlich.media/arbeiten/human-care/
+01:25:22	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/autoagentur-gerken-ci/GET (from https://herrlich.media/arbeiten/autoagentur-gerken-ci/)
+01:25:22	Warning: 	Moved Permanently for https://herrlich.media/?p=446
+01:25:22	Warning: 	File has moved from https://herrlich.media/?p=446 to https://herrlich.media/arbeiten/autoagentur-gerken-ci/
+01:25:22	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/autoagentur-gerken/GET (from https://herrlich.media/arbeiten/autoagentur-gerken/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=434
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=434 to https://herrlich.media/arbeiten/autoagentur-gerken/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/artyvects-facebook-gewinnspiel/GET (from https://herrlich.media/arbeiten/artyvects-facebook-gewinnspiel/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=424
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=424 to https://herrlich.media/arbeiten/artyvects-facebook-gewinnspiel/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/artyvects-wallets/GET (from https://herrlich.media/arbeiten/artyvects-wallets/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=401
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=401 to https://herrlich.media/arbeiten/artyvects-wallets/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/artyvects-ci/GET (from https://herrlich.media/arbeiten/artyvects-ci/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=379
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=379 to https://herrlich.media/arbeiten/artyvects-ci/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/artyvects-onlineshop/GET (from https://herrlich.media/arbeiten/artyvects-onlineshop/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=359
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=359 to https://herrlich.media/arbeiten/artyvects-onlineshop/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/dry-aged-beef/GET (from https://herrlich.media/arbeiten/dry-aged-beef/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=330
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=330 to https://herrlich.media/arbeiten/dry-aged-beef/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/bargfrede-sportstravel/GET (from https://herrlich.media/arbeiten/bargfrede-sportstravel/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=258
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=258 to https://herrlich.media/arbeiten/bargfrede-sportstravel/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/sport-bargfrede/GET (from https://herrlich.media/arbeiten/sport-bargfrede/)
+01:25:23	Warning: 	Moved Permanently for https://herrlich.media/?p=724
+01:25:23	Warning: 	File has moved from https://herrlich.media/?p=724 to https://herrlich.media/arbeiten/sport-bargfrede/
+01:25:23	Error: 	"Not Found" (404) at link https://herrlich.media/autor/mona/GET (from https://herrlich.media/autor/mona/)
+01:25:28	Error: 	"Not Found" (404) at link https://herrlich.media/autor/admin/page/3/GET (from https://herrlich.media/autor/admin/page/3/)
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/avides-better-trade/GET (from https://herrlich.media/arbeiten/avides-better-trade/)
+01:25:34	Warning: 	Moved Permanently for https://herrlich.media/?p=1699
+01:25:34	Warning: 	File has moved from https://herrlich.media/?p=1699 to https://herrlich.media/arbeiten/avides-better-trade/
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/hanse-escrow/GET (from https://herrlich.media/arbeiten/hanse-escrow/)
+01:25:34	Warning: 	Moved Permanently for https://herrlich.media/?p=1677
+01:25:34	Warning: 	File has moved from https://herrlich.media/?p=1677 to https://herrlich.media/arbeiten/hanse-escrow/
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/thema/avides/GET (from https://herrlich.media/thema/avides/)
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/thema/reccon/GET (from https://herrlich.media/thema/reccon/)
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/thema/dedon/GET (from https://herrlich.media/thema/dedon/)
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/team/luke/GET (from https://herrlich.media/team/luke/)
+01:25:34	Warning: 	Moved Permanently for https://herrlich.media/?p=1610
+01:25:34	Warning: 	File has moved from https://herrlich.media/?p=1610 to https://herrlich.media/team/luke/
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/arbeiten/gesundheitspraxis-lebenswege/GET (from https://herrlich.media/arbeiten/gesundheitspraxis-lebenswege/)
+01:25:34	Warning: 	Moved Permanently for https://herrlich.media/?p=690
+01:25:34	Warning: 	File has moved from https://herrlich.media/?p=690 to https://herrlich.media/arbeiten/gesundheitspraxis-lebenswege/
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/team/mona/GET (from https://herrlich.media/team/mona/)
+01:25:34	Warning: 	Moved Permanently for https://herrlich.media/?p=1600
+01:25:34	Warning: 	File has moved from https://herrlich.media/?p=1600 to https://herrlich.media/team/mona/
+01:25:34	Error: 	"Not Found" (404) at link https://herrlich.media/team/fred/GET (from https://herrlich.media/team/fred/)
+01:25:35	Warning: 	Moved Permanently for https://herrlich.media/?p=1608
+01:25:35	Warning: 	File has moved from https://herrlich.media/?p=1608 to https://herrlich.media/team/fred/
+01:25:37	Error: 	"Not Found" (404) at link https://herrlich.media/autor/admin/page/4/GET (from https://herrlich.media/autor/admin/page/4/)
+01:25:43	Error: 	"Not Found" (404) at link https://herrlich.media/thema/tophotelprojects/GET (from https://herrlich.media/thema/tophotelprojects/)
+01:25:43	Error: 	"Not Found" (404) at link https://herrlich.media/thema/pizza-flitza/GET (from https://herrlich.media/thema/pizza-flitza/)
+01:25:43	Error: 	"Not Found" (404) at link https://herrlich.media/thema/goldkinder/GET (from https://herrlich.media/thema/goldkinder/)
+01:25:43	Error: 	"Not Found" (404) at link https://herrlich.media/team/du/GET (from https://herrlich.media/team/du/)
+01:25:43	Warning: 	Moved Permanently for https://herrlich.media/?p=82
+01:25:43	Warning: 	File has moved from https://herrlich.media/?p=82 to https://herrlich.media/team/du/
+01:25:43	Error: 	"Not Found" (404) at link https://herrlich.media/autor/admin/page/5/GET (from https://herrlich.media/autor/admin/page/5/)
+01:25:47	Error: 	"Not Found" (404) at link https://herrlich.media/thema/fahjen/GET (from https://herrlich.media/thema/fahjen/)
+01:25:47	Error: 	"Not Found" (404) at link https://herrlich.media/autor/admin/page/6/GET (from https://herrlich.media/autor/admin/page/6/)
+01:25:47	Error: 	"Not Found" (404) at link https://herrlich.media/thema/refe-rent/GET (from https://herrlich.media/thema/refe-rent/)
+01:25:47	Error: 	"Not Found" (404) at link https://herrlich.media/thema/automobilagentur-gerken/GET (from https://herrlich.media/thema/automobilagentur-gerken/)
+01:25:47	Error: 	"Not Found" (404) at link https://herrlich.media/thema/artyvects/GET (from https://herrlich.media/thema/artyvects/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 18 minutes 56 seconds : 1271 links scanned, 1065 files written (64417649 bytes overall) [60729911 bytes received at 53459 bytes/sec], 65309119 bytes transferred using HTTP compression in 1176 files, ratio 91%, 5.8 requests per connection
+(117 errors, 178 warnings, 0 messages)

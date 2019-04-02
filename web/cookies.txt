@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.webstrot.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_b8ff42018048cbb1585571f7a78eaf0d	1c011f8188088595f70189b3442cca2e%7C%7C1542443262%7C%7C1542439662%7C%7C81edda4e81b0e04c3d532d8d16cffc9b
+

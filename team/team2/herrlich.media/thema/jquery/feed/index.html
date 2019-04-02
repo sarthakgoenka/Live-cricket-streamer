@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jQuery &#8211; herrlich media &#8211; Werbeagentur für neue Medien aus Zeven</title>
+	<atom:link href="https://herrlich.media/thema/jquery/feed/" rel="self" type="application/rss+xml" />
+	<link>https://herrlich.media</link>
+	<description>Herrliche Werbeagentur für Webdesign, Webentwicklung, Online Marketing,  SEM, SM und Corporate Design. Bock auf gute Arbeit? Meld dich einfach. Wir sind net.</description>
+	<lastBuildDate>Wed, 27 Jun 2018 09:11:45 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>jScrollPane. Oder wie ich es nenne: jScrollPain in the ass.</title>
+		<link>https://herrlich.media/blog/jscrollpane-pane-in-the-ass/</link>
+		<comments>https://herrlich.media/blog/jscrollpane-pane-in-the-ass/#comments</comments>
+		<pubDate>Sun, 09 Jun 2013 21:03:33 +0000</pubDate>
+		<dc:creator><![CDATA[Fynn Kliemann]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[jQuery]]></category>
+
+		<guid isPermaLink="false">http://herrlich.media/?p=1196</guid>
+		<description><![CDATA[<p>Warum das jquery Plugin "jscrollpane" zwar geil, aber nicht so richtig toll im Umgang mit dynamisch nachgeladenen Daten ist.</p>
+<p>The post <a rel="nofollow" href="https://herrlich.media/blog/jscrollpane-pane-in-the-ass/">jScrollPane. Oder wie ich es nenne: jScrollPain in the ass.</a> appeared first on <a rel="nofollow" href="https://herrlich.media">herrlich media - Werbeagentur für neue Medien aus Zeven</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>So funktioniert das jQuery Plugin &#8222;jScrollPane&#8220;:</h2>
+<p>Wie dir vielleicht aufgefallen ist, sieht unsere Browserscrollbar nicht so aus wie jede Andere. Dafür ist ein jQuery Plugin namens jScrollPane verantwortlich. Es setzt den Body der Website auf overflow:hidden und stellt damit das standard Scrolling aus (Horizontal und Vertikal). Dann wird ein Wrapper (jspContainer) um den gesamten Inhalt gesetzt und eine bestimmte Größe vergeben die genau die Dimensionen des Browserfensters einnimmt. In diesem Container ist ein weiteres Div (jspPane). Dieses ist absolute positioniert (position:absolute) und wird beim scrollen je nach Scrollposition negative nach Oben verschoben.</p>
+<p>Sprich: Mein Browserfenster ist 768px hoch, aber mein darin befindliche Content hat eine Höhe von 1500px. Dann hat jspContainer eine Höhe von 768px und beim scrollen um z.B. 200 Pixel wird der jsPane-Container auf top:-200px gesetzt und somit nach Oben geschoben. Durch die Einbindung des jQuery &#8222;mousewheel&#8220; Plugins kann man dann auch ganz normal mit seinem Mausrad scrollen und der User merkt keinen Unterschied zu dem nativ scrolling.</p>
+<p>Die Position und Größe des Scrollbalkens wird dabei dynamisch von jScrollPane ausgerechnet und man kann das Ding natürlich mit custom styles umgestalten wie man möchte.</p>
+<h3>Das tolle daran:</h3>
+<p>Es funktioniert als eine der wenigen Lösungen in allen Browsern, sieht geil aus und ist leicht einzubauen.</p>
+<h3><del>Das schlechte daran:</del> Die Lösung für dynamische Inhalt + jScrollPane:</h3>
+<pre class="brush: xml; title: ; notranslate">
+autoReinitialise: true
+
+//Der Aufruf sieht dann also z.B. so aus: 
+$('#complete-page').jScrollPane({
+showArrows: true,
+autoReinitialise: true
+});
+</pre>
+<p><del>Es gibt keinen Listener für die Größe des Inhalts und gerade bei dynamischen Seiten wie Unserer, muss man bei jeder nachträglichen Veränderung der Inhaltsgröße die neuen Höhenangaben an das Plugin übergeben und den Scrollbalken neu rendern, damit man bis zum Contentende scrollen kann.</del> Das ist schon recht aufwendig aber noch okay bei Events die man selbst lostritt wie das triggern eines Ajax-Requests um neue Posts zu holen oder mehr Infos zu einem Post anzuzeigen wie auf der herrlichen Referenzseite. Da gibt es aber auch Callbacks und man kann/muss prüfen ob man alle Daten zusammen hat (Bilder geladen sind usw.), dann ausrechnen wie hoch der neue Inhalt ist und den Scrollbalken darauf abstimmen bzw. scrollPane reinitialisen.</p>
+<pre class="brush: xml; title: ; notranslate">
+// Hier wird die Funktion global das betroffene Div angewandt
+pane = $('#complete-page');
+pane.jScrollPane();
+api = pane.data('jsp');
+
+// Diese Funktion wird nun nach allen Veränderungen am Content aufgerufen um die Größe wieder passend zu machen.
+api.reinitialise();
+</pre>
+<p>Wenn aber asynchrone Features wie die Kommentarfunktion von Disqus geladen werden, ist das schon deutlich nerviger.<br />
+Dazu kommt, dass es nicht auf mobilen Geräten funzt und ich daher eine komplett überarbeitete mobile View bauen musste. Natürlich hat das auch seine Vorteile, da somit Datengrößen reduziert wurden und wirklich nur die Scripte eingebunden werden die wir auch benötigen, aber trotzdem lästig :)</p>
+<p>Alles in Allem hat mich dieser kleine Sahnelook locker 20 Stunden mehr Arbeit und ein paar Tobsuchtsanfälle gekostet und ich würde jedem raten der nicht gerade ne statische Seite baut, auf Alternativen zu setzen.</p>
+<h2>Alternativen:</h2>
+<p>Crossbrowser gibt es aber eben nicht viele Möglichkeiten und da ich das hier schon mal auf einen kleinen Container angewandt habe und es da Problem funktionierte dachte ich das läuft so durch, aber Vorsicht bei der Anwendung an ganzen Seiten mit dynamischen Inhalten.</p>
+<p>Webkit kann das zum Glück und auch sehr ausgefeilt. Für alle mit geilen Browsern kann man so also sehr leicht ein kleines grafischen Schmankerln mit rausschicken.</p>
+<pre class="brush: css; title: ; notranslate">
+::-webkit-scrollbar {}
+::-webkit-scrollbar-button
+::-webkit-scrollbar-track
+…
+</pre>
+<p>Hier gibt&#8217;s alles zu dem Thema: Custom Scrollbars in Webkit</p>
+<p>Sogar der IE kann das ein bisschen. Zumindest die Farbe kann hier angepasst werden.</p>
+<pre class="brush: css; title: ; notranslate">
+body {
+scrollbar-face-color: #b46868;
+}
+</pre>
+<p>The post <a rel="nofollow" href="https://herrlich.media/blog/jscrollpane-pane-in-the-ass/">jScrollPane. Oder wie ich es nenne: jScrollPain in the ass.</a> appeared first on <a rel="nofollow" href="https://herrlich.media">herrlich media - Werbeagentur für neue Medien aus Zeven</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://herrlich.media/blog/jscrollpane-pane-in-the-ass/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+	</channel>
+</rss>
