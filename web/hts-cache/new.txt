@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-13:58:22	26/26	---MC-	200	added ('OK')	text/plain	date:Thu,%2015%20Nov%202018%2008:27:41%20GMT	http://www.webstrot.com/robots.txt		(from )
-13:58:23	190388/190388	---M-Z	200	added ('OK')	text/html	date:Tue,%201%20Oct%202014%2010:10:10%20GMT	http://www.webstrot.com/html/moviepro/	E:/MINI-PROJECT/web/www.webstrot.com/html/moviepro/index.html	(from )

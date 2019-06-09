@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Live Cricket Match</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-color: coral;
+}
+
+@media screen and (max-width: 1024px){
+    img.bg {
+    left: 50%;
+    margin-left: -512px; }
+}
+</style>
+  </head>
+  <body style="background-color:#373737">
+  	<nav class="navbar navbar-expand-lg navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Live Match Streamer</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <!-- <li><a href="#">Home</a></li> -->
+      <li><a href="/about">About</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-xs-8">
+  	<!-- <div class="contatiner" > -->
+      <span class="border-5">
+        <h1 style="color: white">Live Match</h1>
+         <img id="bg" src="{{ url_for('video_feed') }}">
+  </span>
+  		
+  			
+  	<!-- </div> -->
+  </div>
+  <div class="col-sm-2"></div>
+</div>
+</body>
+</html>
